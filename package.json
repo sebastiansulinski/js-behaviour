@@ -1,5 +1,5 @@
 {
-  "name": "@ssdcode/js-behaviour",
+  "name": "@ssdcode/js-behaviours",
   "version": "0.1.0",
   "description": "Class with a set of methods representing post form submission behaviour",
   "main": "./src/index.js",
@@ -14,9 +14,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sebastiansulinski/js-behaviour.git"
+    "url": "https://github.com/sebastiansulinski/js-behaviours.git"
   },
-  "homepage": "https://github.com/sebastiansulinski/js-behaviour#readme",
+  "homepage": "https://github.com/sebastiansulinski/js-behaviours#readme",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
