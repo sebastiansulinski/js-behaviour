@@ -1,6 +1,6 @@
-# Behaviour
+# Js Behaviours
 
-Class with a set of methods representing post form submission behaviour.
+Set of methods representing post form submission behaviour.
 To accompany [@ssdcode/vue-form](https://github.com/sebastiansulinski/vue-form) v2.
 
 ## Installation
