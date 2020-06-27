@@ -11,7 +11,7 @@ const confirmClear = (response, instance) => {
   instance.inputs = instance.clone(instance.initial);
   instance.addNotification({
     type: 'success',
-    message: response.message,
+    message: response.message || 'Request has been processed successfully',
   });
 };
 

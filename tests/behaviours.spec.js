@@ -78,4 +78,14 @@ describe('Tests `confirmClear` method', () => {
     expect(form.inputs).toEqual({ id: 0, name: '' });
     expect(form.payload).toEqual({ type: 'success', message: 'You did it!' });
   });
+
+  it('returns default message if none is present in response', () => {
+    confirmClear({}, form);
+    expect(form.processing).toBeFalsy();
+    expect(form.inputs).toEqual({ id: 0, name: '' });
+    expect(form.payload).toEqual({
+      type: 'success',
+      message: 'Request has been processed successfully',
+    });
+  });
 });
