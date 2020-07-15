@@ -2,6 +2,7 @@
 node_modules
 package-lock.json
 /tests/unit/__snapshots__/
+db.json
 
 # local env files
 .env.local
@@ -20,4 +21,3 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
-db.json
