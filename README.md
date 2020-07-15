@@ -26,7 +26,7 @@ confirmClear({ message: 'You did it!' }, this);
 You can execute tests by calling
 
 ```bash
-npm run test:unit
+npm run test
 ```
 
 ## Contributions
